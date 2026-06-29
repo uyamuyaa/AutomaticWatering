@@ -1,7 +1,7 @@
   # AutomaticWatering
     Setting Up the Automatic Watering System
 The work is done in the Arduino IDE  
-Load the `irr_sys_local` file  
+Load the `irr_sys_final_local` file  
 Tools - > Board - > Boards Manager… - > Install the required board packages - >      
 
       ●	Arduino AVR Boards by Arduino;      
