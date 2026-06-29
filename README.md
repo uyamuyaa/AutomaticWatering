@@ -3,12 +3,12 @@
 The work is done in the Arduino IDE  
 Load the `irr_sys_local` file  
 Tools - > Board - > Boards Manager… - > Install the required board packages - >      
-*
+
       ●	Arduino AVR Boards by Arduino;      
       ●	Arduino ESP32 Boards by Arduino;      
       ●	Esp32 by Espressif Systems;      
-      ●	Esp8266 by ESP8266 Community;      
-*
+      ●	Esp8266 by ESP8266 Community;   
+      
 On the left side of the control panel is the Library Manager. Here, you need to install the libraries required for the project:  
   ●	ArduinoJson by Benoit Blanchon;  
   ● PubSubClient by Nick O'Leary;  
