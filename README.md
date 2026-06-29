@@ -29,7 +29,12 @@ There is a mode-switch button; by default, the system operates in automatic mode
   If the soil is dry, watering begins for 5 seconds, followed by a 3-second delay after watering. The sensor then checks the moisture level again; if it is satisfactory, the system moves on to the next plant; if not, it continues watering. 
 
   If you switch to manual mode, buttons for 5-second watering cycles appear; watering does not occur automatically, and the sensors continue to check moisture levels sequentially every second. Pressing a button starts a 5-second watering cycle.
-Below are cards with information about the plant: plant number, moisture level in ADC values and as a percentage, status (wet or dry), and the number of waterings for this session.
+  
+      ● Below are cards with information about the plant: 
+    plant number, 
+      ● moisture level in ADC values and as a percentage,
+      ● status (wet or dry), 
+      ● and the number of waterings for this session.
 
 
 
