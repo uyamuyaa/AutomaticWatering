@@ -16,8 +16,8 @@ Next, in the board selection field, select the NodeMCU 1.0 (ESP-12E Module) boar
 to the right, select the port to which the board is connected via a cable to the PC(com3, com6, com7 etc.)  
 
 In code lines 17–18 – enter the SSID and password for your local network   
-      const char* ssid = “your_network_ssid”;  
-      const char* password = “your_network_password”;  
+        const char* ssid = “your_network_ssid”;  
+        const char* password = “your_network_password”;  
 Click the Upload arrow to upload the firmware containing the network settings to the board. The Serial Monitor will display connection details and sensor status, including the board’s network IP address which contains webserver.  
 
 
