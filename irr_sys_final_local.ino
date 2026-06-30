@@ -34,7 +34,7 @@ const int SIG = A0;
 const int pumpPins[4] = {13, 15, 16, 2}; // D7, D8, D0, D4
 
 // =================== ПАРАМЕТРИ ===================
-const int DRY_THRESHOLD = 150; // ADC поріг сухості
+const int DRY_THRESHOLD = 190; // ADC поріг сухості
 
 const unsigned long PUMP_DURATION[4] = { 5000, 5000, 5000, 5000 };
 const unsigned long RECHECK_DELAY[4] = { 3000, 3000, 3000, 3000 };
