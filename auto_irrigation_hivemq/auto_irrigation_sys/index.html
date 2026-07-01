@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Система поливу</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mqtt/4.3.7/mqtt.min.js"></script>
+</head>
+<body>
+
+    <div id="login-overlay">
+        <div class="login-box">
+            <h2>🔐 Вхід у систему поливу</h2>
+            <p style="font-size: 13px; color: #666; margin-bottom: 15px;">Введіть дані вашого веб-додатка HiveMQ</p>
+            <input type="text" id="username" placeholder="Логін користувача" value="">
+            <input type="password" id="password" placeholder="Пароль" value="">
+            <button onclick="connectToMqtt()">Увійти та підключитися</button>
+            <div id="login-error" style="display: none; color: #e53935; margin-top: 10px; font-weight: bold;">
+                ❌ Помилка підключення! Перевірте дані.
+            </div>
+        </div>
+    </div>
+
+    <header>
+        🌱 СИСТЕМА ПОЛИВУ РОСЛИН 🌱
+    </header>
+
+    <div class="wrap">
+        <div class="mode-box">
+            <span>Поточний режим: <b id="modeTxt" class="val" style="color: #999;">Очікування входу...</b></span>
+            <button id="modeBtn" class="btn-mode" onclick="toggleMode()" disabled>Змінити режим</button>
+        </div>
+
+        <div class="info">
+            <p><span class="lbl">Статус хмари: </span><span class="val" id="wf" style="color: #ef5350;">🔴 Відключено</span></p>
+            <p><span class="lbl">Час роботи плати: </span><span class="val" id="up">00:00:00</span></p>
+            <p><span class="lbl">Активний датчик: </span><span class="val" id="ac">—</span></p>
+            <p><span class="lbl">Стан системи: </span><span class="val" id="st">—</span></p>
+        </div>
+
+        <div id="cards"></div>
+    </div>
+
+    <footer>
+        КБКІ 2026 Розумна система автополиву &bull; HiveMQ Cloud
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
