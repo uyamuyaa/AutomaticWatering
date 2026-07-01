@@ -1,4 +1,4 @@
-  # AutomaticWatering
+  # AutomaticWatering (Local Edition)
     Setting Up the Automatic Watering System
 The work is done in the Arduino IDE  
 Load the `irr_sys_final_local` file  
@@ -37,7 +37,7 @@ There is a mode-switch button; by default, the system operates in automatic mode
       ● and the number of waterings for this session.
 
 
-# Smart IoT Plant Irrigation System (Cloud Edition)
+# AutomaticWatering (Cloud Edition)
 
 This project is an automated and manual IoT plant irrigation system designed to monitor and water up to 4 plants. It architecture is built around an **ESP8266** microcontroller, a **CD74HC4067** 16-channel analog multiplexer, a cloud-based **HiveMQ MQTT broker**, and a responsive frontend web application hosted on **Render**.
 
